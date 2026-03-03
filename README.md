@@ -1,6 +1,6 @@
 # HumanAI
 
-This repository contains google colab notebooks, notes, project timeline, proposal and all relevant information of my GSOC journey while contribution to HumanAI. 
+This repository contains google colab notebooks, notes, project timeline, proposal and all relevant information of my GSOC journey while contributing to HumanAI. 
 
 ## Dataset
 A subset of [Open Speech and Language Resources Dataset](https://openslr.org/39/) is used for finetuning the model. 
@@ -23,6 +23,9 @@ The Heroico subcorpus has 11.8 hours of speech. One hour segment of speech in th
 
 ### `generate_metadata`:
 A [generate_metadata.py](generate_metadata.py) script creates a CSV file mapping the path, audio file name and transcription. This [metadata.csv](metadata.csv) file is used for loading the dataset. 
+
+### `dataset.py`:
+The [dataset.py](dataset.py) script 
 
 ## Notes
 - [Notes I made while learning the pre-requisites for the required project](notes/Audio.pdf)
